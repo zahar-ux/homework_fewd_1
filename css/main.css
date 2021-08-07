@@ -1,0 +1,71 @@
+body{
+    margin:0;
+}
+.flex{ display:flex    
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+h1{
+    color: yellow;
+}
+h2{
+    background-color: grey;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.banner{
+    background-image: url("http//:placehold.it");
+    background-size: cover;
+    height: 400px;
+}
+.banner .flex{
+    flex-direction: column;
+    width: 15%;
+    margin-left: 80%;
+    padding-top: 5%;
+}
+.banner .flex a{
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 10px
+}
+.button{
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+}
+.item{
+    text-align: start;
+    margin-right:20px;
+    box-shadow: 10px 10px 10px rgb(111, 106, 106); 
+    padding: 10px;
+}
+.item a{
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 100px;
+}
+.item{
+    align-content: flex-start; 
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    
+}
