@@ -33,14 +33,10 @@ nav a{
     margin-left: 80%;
     padding-top: 5%;
 }
-.banner .flex a{
-    color: black;
-    background-color: yellow;
-    text-decoration: none;
-    padding: 10px
-}
 .button{
+    color: black;
     text-align: center;
+    text-decoration: none;
     background-color: yellow;
     padding: 10px;
 }
@@ -57,10 +53,7 @@ nav a{
     text-transform: uppercase;
     padding: 10px 100px;
 }
-.item{
-    align-content: flex-start; 
-    flex-wrap: wrap;
-}
+
 
 footer{
     background-color: black;
